@@ -12,16 +12,14 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Quasar Waether
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
     >
       <q-list>
